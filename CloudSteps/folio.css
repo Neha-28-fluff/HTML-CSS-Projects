@@ -1,0 +1,94 @@
+/*inline css over rules
+!important is used indicate presidency
+priority using specificity calculator: id > class > elements
+box-sizing: border-box; signifies that width includes content as well as borders and padding
+to comment out lines- select the lines and press (shift+alt+A)*/
+/* margin: top right bottom left; */
+html {
+    font-family: monospace;
+}
+button {
+    font: inherit;
+}
+body {
+    background-color: #A8CFF8;
+    padding: 0;
+    overflow: hidden;
+    margin: 0%;
+    color: rgba(0,0,0,0.2);  /*a stands for transparency and have a range of 0-1*/
+    display: grid;
+    grid-template-rows: 2fr 10fr 1fr;
+    line-height: 1.1;
+    min-height: 100vh;
+}
+.space {
+    letter-spacing: 0.5rem;
+}
+header {
+    background-color: #FFC7DF;
+    display: flex;
+    justify-content: space-between;  
+    margin: 0%;
+}
+.head1 {
+    margin-left: 3rem;
+    text-decoration: none;
+    font-size: 3rem;
+}
+.light {
+    background-color: papayawhip;
+}
+ul {
+    margin-right: 3rem;
+}
+button {
+    font-size: 1.2rem;
+}
+main {
+    display: flex;
+    margin: 3rem;
+    max-height: 60vh;
+    color: rgb(3, 2, 0);
+}
+.img1 {
+    max-width: 30vw;  
+    max-height: 80vh;
+    border-radius: 50%;
+    padding-left: 3rem;
+}
+.left2 {
+    display: flex;
+    /*width: 30%;*/
+    width: 40ch;
+    font-size: 1rem;
+}
+.left1 {
+    font-size: 2rem;
+}
+.img2 {
+    max-width: 80px;
+    float: right;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    border-radius: 50%;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(43, 42, 42);
+}
+.f1 {
+    width: 30px;
+    height: 30px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.fb {
+    width: 40px;
+    height: 40px;
+    padding-top: 0.65rem;
+}
+.left3 {
+    color: rgba(0,0,0,0.7); 
+}
+
